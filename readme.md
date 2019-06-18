@@ -7,11 +7,15 @@ doc 2.0 https://dart.dev/
 Meus primeiros passos com Dart. Começando com um teste é claro. Porque tudo deve (deveria) começar
 com um teste.
 
-Instale as dependências
+
+__Instale as dependências__
 
     pub get
 
-Começe aqui
+Para o `pub` funcionar no Linu, basta incluir a variável de ambiente `export PATH=/usr/lib/dart/bin:$PATH`.
+
+
+__Começe aqui:__
 
     cd testando-os-testes
     dart writing-tests.dart
