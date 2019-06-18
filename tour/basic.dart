@@ -33,5 +33,17 @@ void main() {
         expect('Bob', name3.toString());
     });
 
+    //
+    // https://v1-dartlang-org.firebaseapp.com/resources/dart-tips/dart-tips-ep-9
+    //
+    test("Handler error", () {
+        try {
+            throw new StateError('error send');
+        }
+        catch(e) {
+            expect(true, isTrue);
+        }
+    });
+
 
 }
