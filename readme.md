@@ -12,7 +12,7 @@ __Instale as dependências__
 
     pub get
 
-Para o `pub` funcionar no Linu, basta incluir a variável de ambiente `export PATH=/usr/lib/dart/bin:$PATH`.
+Para o `pub` funcionar no Linux, basta incluir a variável de ambiente `export PATH=/usr/lib/dart/bin:$PATH`.
 
 
 __Começe aqui:__
