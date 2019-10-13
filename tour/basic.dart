@@ -45,5 +45,22 @@ void main() {
         }
     });
 
+    test("int class sign", () {
+        var number =  123;
+
+        expect(1, number.sign);
+        expect("123", number.toString());
+    });
+
+    test("int class sign", () {
+        // Returns -1 for values less than zero
+        expect(-1, -123.sign);
+
+        // Returns 0 for zero
+        expect(0, 0.sign);
+
+        // Returns  +1 for values greater than zero.
+        expect(1, 123.sign);
+    });
 
 }
